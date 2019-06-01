@@ -23,6 +23,7 @@ class RosterCrawler(SteemReader):
     def __init__(self, account=None, tag=None, days=None, incremental=False):
         SteemReader.__init__(self, account=account, tag=tag, days=days)
         self.roster = []
+        self._roster_dict = {}
         self.public_folder = "public"
         self.incremental = incremental
         if self.incremental:
@@ -58,7 +59,7 @@ class RosterCrawler(SteemReader):
         if len(self.posts) > 0:
             for post in self.posts:
                 names = self.parse(post)
-                self.roster.extend(names)
+            self.transform()
             count = len(self.roster)
             if count > 0:
                 self.save()
@@ -68,27 +69,35 @@ class RosterCrawler(SteemReader):
             logger.info("No new posts are fetched.")
         return len(self.roster)
 
+    def _update(self, account, name):
+        if not account in self._roster_dict:
+            self._roster_dict[account] = [name]
+            return True
+        else:
+            if not name in self._roster_dict[account]:
+                self._roster_dict[account].append(name)
+                return True
+        return False
+
     def parse(self, post):
         c = SteemComment(comment=post)
         res = re.findall(NAME_NICKNAME_PATTERN, c.get_comment().body)
 
-        known_names = [user['account'] for user in self.roster]
-
         names = []
         if res:
             for r in res:
-                name = {
-                    "account": r[0],
-                    "nickname": r[1]
-                }
-                if not name['account'] in known_names:
-                    names.append(name)
+                account = r[0]
+                nickname = r[1]
+                self._update(account, nickname)
         return names
+
+    def transform(self):
+        if len(self._roster_dict) > 0:
+            self.roster = [{"account": k, "nickname": " / ".join(v)} for (k, v) in sorted(self._roster_dict.items())]
 
     def save(self):
         count = len(self.roster)
         if count > 0:
-            self.roster = sorted(self.roster, key=(lambda user: user['account']))
             filename = self._get_roster_data_file()
             write_json_array_to_csv(self.roster, filename)
             logger.info("Crawled {} names to add into roster {}".format(count, filename))
