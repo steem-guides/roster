@@ -30,7 +30,7 @@
 </tr>
 <tr>
   <td><a href="https://busy.org/@aellly">@aellly</a></td>
-  <td>瓜叔笑容满面，还自备西瓜汁</td>
+  <td>瓜叔笑容满面，还自备西瓜汁 / 瓜叔</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@also.einstein">@also.einstein</a></td>
@@ -38,7 +38,7 @@
 </tr>
 <tr>
   <td><a href="https://busy.org/@alvin0617">@alvin0617</a></td>
-  <td>Alvin</td>
+  <td>Alvin / 小红</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@angelina6688">@angelina6688</a></td>
@@ -50,11 +50,11 @@
 </tr>
 <tr>
   <td><a href="https://busy.org/@artsymelanie">@artsymelanie</a></td>
-  <td>美丽姐</td>
+  <td>美丽姐 / 美丽</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@auleo">@auleo</a></td>
-  <td>榴莲王子 阿奥</td>
+  <td>榴莲王子 阿奥 / 阿奥</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@cecilian">@cecilian</a></td>
@@ -94,7 +94,7 @@
 </tr>
 <tr>
   <td><a href="https://busy.org/@honoru">@honoru</a></td>
-  <td>米高哥</td>
+  <td>米高哥 / 米高</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@itchyfeetdonica">@itchyfeetdonica</a></td>
@@ -118,11 +118,11 @@
 </tr>
 <tr>
   <td><a href="https://busy.org/@kidsreturn">@kidsreturn</a></td>
-  <td>小兔子一蹦一跳</td>
+  <td>小兔子一蹦一跳 / 小兔子</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@kristylkho">@kristylkho</a></td>
-  <td>卡宝</td>
+  <td>卡宝 / 小佩</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@liubao">@liubao</a></td>
@@ -130,7 +130,7 @@
 </tr>
 <tr>
   <td><a href="https://busy.org/@liumei">@liumei</a></td>
-  <td>阿美</td>
+  <td>阿美 / 阿花</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@liuzg">@liuzg</a></td>
@@ -230,7 +230,7 @@
 </tr>
 <tr>
   <td><a href="https://busy.org/@wilhb81">@wilhb81</a></td>
-  <td>小智&小白条</td>
+  <td>小智&小白条 / 小智 & 小白条</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@windowglass">@windowglass</a></td>
