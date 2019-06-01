@@ -18,6 +18,6 @@ if [ -d public ]; then
     NOW=$(date +"%Y-%m-%d %H:%M:%S %z")
     git add --all *
     git commit -m "Roster updated: ${NOW}" || true
-    git push -q origin master
+    git push -q origin gh-pages
 
 fi
