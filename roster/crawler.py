@@ -88,6 +88,7 @@ class RosterCrawler(SteemReader):
     def save(self):
         count = len(self.roster)
         if count > 0:
+            self.roster = sorted(self.roster, key=(lambda user: user['account']))
             filename = self._get_roster_data_file()
             write_json_array_to_csv(self.roster, filename)
             logger.info("Crawled {} names to add into roster {}".format(count, filename))
