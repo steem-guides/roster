@@ -1,0 +1,26 @@
+language: python
+python:
+  - '3.6'
+
+install:
+  - 'pip install pipenv'
+  - bash .travis/_install.sh
+
+script:
+  - bash .travis/_build.sh
+  - bash .travis/_deploy.sh
+
+branches:
+  only:
+    - master
+
+# env:
+  # - PIPENV_CACHE_DIR=.pipenv
+
+cache:
+  packages: yes
+  directories:
+    - $HOME/.cache/pip
+    # - $HOME/virtualenv
+    # - $PIPENV_CACHE_DIR
+    - $HOME/.local/share/virtualenvs
