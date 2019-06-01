@@ -18,7 +18,7 @@ Image Source: [Wikipedia - The Avengers](https://en.wikipedia.org/wiki/The_Aveng
 We collect the (name, nickname) pair from the posts in the community.
 
 The current data sources includes below ones:
-1. @teamcn-shop 's daily reports: https://steemit.com/steempress/@teamcn-shop
+1. @teamcn-shop 's daily reports: https://steemit.com/@teamcn-shop
 
 
 
