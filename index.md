@@ -7,6 +7,7 @@
 
 1. @teamcn-shop 新手村小卖部日报: https://steemit.com/@teamcn-shop
 1. @teamcn-shop 新手村小卖部 送外卖给客户时的留言。例如 [这条留言](https://busy.org/@julian2013/p109-6kbf9ubevi#@teamcn-shop/annepink-re-julian2013-p109-6kbf9ubevi-20190602t133509529z)
+1. @teamcn 毕业典礼的学生名单，例如[第七届新手村毕业典礼](https://steemit.com/@team-cn/egxwc0ewsi/)
 
 
 - - -
@@ -27,11 +28,11 @@
 </tr>
 <tr>
   <td><a href="https://busy.org/@abcallen">@abcallen</a></td>
-  <td>阿兰</td>
+  <td>阿兰 / Allen / 鸭伦</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@aellly">@aellly</a></td>
-  <td>瓜叔笑容满面，还自备西瓜汁 / 瓜叔</td>
+  <td>瓜叔笑容满面，还自备西瓜汁 / 瓜叔 / 西瓜 / 瓜子</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@also.einstein">@also.einstein</a></td>
@@ -42,8 +43,12 @@
   <td>Alvin / 小红</td>
 </tr>
 <tr>
+  <td><a href="https://busy.org/@amanda8250">@amanda8250</a></td>
+  <td>阿曼</td>
+</tr>
+<tr>
   <td><a href="https://busy.org/@angelina6688">@angelina6688</a></td>
-  <td>朱师傅</td>
+  <td>朱师傅 / 朱莉</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@annepink">@annepink</a></td>
@@ -51,11 +56,23 @@
 </tr>
 <tr>
   <td><a href="https://busy.org/@artsymelanie">@artsymelanie</a></td>
-  <td>美丽姐 / 美丽</td>
+  <td>美丽姐 / 美丽 / 王美丽 / MW / 分子量</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@auleo">@auleo</a></td>
   <td>榴莲王子 阿奥 / 阿奥</td>
+</tr>
+<tr>
+  <td><a href="https://busy.org/@bichen">@bichen</a></td>
+  <td>芒果</td>
+</tr>
+<tr>
+  <td><a href="https://busy.org/@biorabbit">@biorabbit</a></td>
+  <td>思想家</td>
+</tr>
+<tr>
+  <td><a href="https://busy.org/@cairou">@cairou</a></td>
+  <td>包子</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@ceci99">@ceci99</a></td>
@@ -71,11 +88,23 @@
 </tr>
 <tr>
   <td><a href="https://busy.org/@cherryzz">@cherryzz</a></td>
-  <td>阿紫</td>
+  <td>阿紫 / Cherry</td>
+</tr>
+<tr>
+  <td><a href="https://busy.org/@chineseman">@chineseman</a></td>
+  <td>大饼</td>
+</tr>
+<tr>
+  <td><a href="https://busy.org/@circlepoint">@circlepoint</a></td>
+  <td>圈点</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@coder-bts">@coder-bts</a></td>
-  <td>BTS</td>
+  <td>BTS / 码农</td>
+</tr>
+<tr>
+  <td><a href="https://busy.org/@crowflew">@crowflew</a></td>
+  <td>维参</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@crypto.talk">@crypto.talk</a></td>
@@ -84,6 +113,14 @@
 <tr>
   <td><a href="https://busy.org/@cryptocurrencyhk">@cryptocurrencyhk</a></td>
   <td>小编</td>
+</tr>
+<tr>
+  <td><a href="https://busy.org/@dapeng">@dapeng</a></td>
+  <td>大鹏哥</td>
+</tr>
+<tr>
+  <td><a href="https://busy.org/@darrenych86">@darrenych86</a></td>
+  <td>华仔</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@davidchen">@davidchen</a></td>
@@ -103,7 +140,19 @@
 </tr>
 <tr>
   <td><a href="https://busy.org/@ericet">@ericet</a></td>
-  <td>村长</td>
+  <td>村长 / 村Long / 村龙 / 村村</td>
+</tr>
+<tr>
+  <td><a href="https://busy.org/@fishlucy">@fishlucy</a></td>
+  <td>露西 / 鱼露</td>
+</tr>
+<tr>
+  <td><a href="https://busy.org/@gerer">@gerer</a></td>
+  <td>晨歌</td>
+</tr>
+<tr>
+  <td><a href="https://busy.org/@hansheng">@hansheng</a></td>
+  <td>鸭子</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@honeyday">@honeyday</a></td>
@@ -111,15 +160,23 @@
 </tr>
 <tr>
   <td><a href="https://busy.org/@honoru">@honoru</a></td>
-  <td>米高哥 / 米高</td>
+  <td>米高哥 / 米高 / Michael / 村书记 / 村高</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@htliao">@htliao</a></td>
-  <td>阿廖</td>
+  <td>阿廖 / HT</td>
+</tr>
+<tr>
+  <td><a href="https://busy.org/@huiguannova">@huiguannova</a></td>
+  <td>元元</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@iguazi123">@iguazi123</a></td>
   <td>瓜子</td>
+</tr>
+<tr>
+  <td><a href="https://busy.org/@ishenyaya">@ishenyaya</a></td>
+  <td>曲曲</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@itchyfeetdonica">@itchyfeetdonica</a></td>
@@ -130,8 +187,12 @@
   <td>佩芯</td>
 </tr>
 <tr>
+  <td><a href="https://busy.org/@jianan">@jianan</a></td>
+  <td>嘉南</td>
+</tr>
+<tr>
   <td><a href="https://busy.org/@jiangchen">@jiangchen</a></td>
-  <td>姜臣</td>
+  <td>姜臣 / 姜辰</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@joythewanderer">@joythewanderer</a></td>
@@ -143,7 +204,7 @@
 </tr>
 <tr>
   <td><a href="https://busy.org/@justyy">@justyy</a></td>
-  <td>行长</td>
+  <td>行长 / 富根</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@kadishakho">@kadishakho</a></td>
@@ -151,15 +212,27 @@
 </tr>
 <tr>
   <td><a href="https://busy.org/@kelvinzhang">@kelvinzhang</a></td>
-  <td>老K</td>
+  <td>老K / kelvin</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@kidsreturn">@kidsreturn</a></td>
-  <td>小兔子一蹦一跳 / 小兔子</td>
+  <td>小兔子一蹦一跳 / 小兔子 / Mandy / 兔兔 / 兔子</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@kristylkho">@kristylkho</a></td>
   <td>卡宝 / 小佩</td>
+</tr>
+<tr>
+  <td><a href="https://busy.org/@laoma">@laoma</a></td>
+  <td>老马</td>
+</tr>
+<tr>
+  <td><a href="https://busy.org/@lifelikeline">@lifelikeline</a></td>
+  <td>金樽上 / 板凳作家 / Robert</td>
+</tr>
+<tr>
+  <td><a href="https://busy.org/@littlexiannv">@littlexiannv</a></td>
+  <td>小仙女</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@liubao">@liubao</a></td>
@@ -171,7 +244,7 @@
 </tr>
 <tr>
   <td><a href="https://busy.org/@liuzg">@liuzg</a></td>
-  <td>老刘头</td>
+  <td>老刘头 / 刘老头</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@loongxiew">@loongxiew</a></td>
@@ -180,6 +253,14 @@
 <tr>
   <td><a href="https://busy.org/@lucindago">@lucindago</a></td>
   <td>Lulu</td>
+</tr>
+<tr>
+  <td><a href="https://busy.org/@lulucy">@lulucy</a></td>
+  <td>小鹿</td>
+</tr>
+<tr>
+  <td><a href="https://busy.org/@maggieliew1704">@maggieliew1704</a></td>
+  <td>Maggie / 美琪</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@mfxqaq">@mfxqaq</a></td>
@@ -210,6 +291,10 @@
   <td>小冰</td>
 </tr>
 <tr>
+  <td><a href="https://busy.org/@odillegogh">@odillegogh</a></td>
+  <td>Odille</td>
+</tr>
+<tr>
   <td><a href="https://busy.org/@oflyhigh">@oflyhigh</a></td>
   <td>O哥</td>
 </tr>
@@ -218,12 +303,20 @@
   <td>阿胖</td>
 </tr>
 <tr>
+  <td><a href="https://busy.org/@peanut77">@peanut77</a></td>
+  <td>花生阿姨</td>
+</tr>
+<tr>
   <td><a href="https://busy.org/@pgr">@pgr</a></td>
-  <td>小P</td>
+  <td>小P / 老艺术家 / 老shi艺术家 / 鸡贼老艺术家 / 小R / 屁股热</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@pizzapai">@pizzapai</a></td>
-  <td>批萨姐</td>
+  <td>批萨姐 / 披萨姐</td>
+</tr>
+<tr>
+  <td><a href="https://busy.org/@raynopssgold">@raynopssgold</a></td>
+  <td>小昇</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@rivalhw">@rivalhw</a></td>
@@ -234,12 +327,24 @@
   <td>阿盐</td>
 </tr>
 <tr>
+  <td><a href="https://busy.org/@robin.han">@robin.han</a></td>
+  <td>Robin</td>
+</tr>
+<tr>
   <td><a href="https://busy.org/@sasaadrian">@sasaadrian</a></td>
   <td>一灯大师</td>
 </tr>
 <tr>
+  <td><a href="https://busy.org/@sharonqian">@sharonqian</a></td>
+  <td>虾仁 / Sharon</td>
+</tr>
+<tr>
   <td><a href="https://busy.org/@shenchensucc">@shenchensucc</a></td>
-  <td>铁柱 / Buddy爸爸 / buddy爸爸</td>
+  <td>铁柱 / Buddy爸爸 / buddy爸爸 / buddy粑粑</td>
+</tr>
+<tr>
+  <td><a href="https://busy.org/@sherry.gong">@sherry.gong</a></td>
+  <td>Sherry</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@shine.wong">@shine.wong</a></td>
@@ -251,11 +356,15 @@
 </tr>
 <tr>
   <td><a href="https://busy.org/@slientstorm">@slientstorm</a></td>
-  <td>阿杰</td>
+  <td>阿杰 / 小杰</td>
+</tr>
+<tr>
+  <td><a href="https://busy.org/@snailsong">@snailsong</a></td>
+  <td>小松</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@softmetal">@softmetal</a></td>
-  <td>软哥 / 软扣扣</td>
+  <td>软哥 / 软扣扣 / 软校长 / 铁蛋 / 村宽</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@stabilowl">@stabilowl</a></td>
@@ -267,7 +376,7 @@
 </tr>
 <tr>
   <td><a href="https://busy.org/@stepbie">@stepbie</a></td>
-  <td>曾老公</td>
+  <td>曾老公 / Stephen</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@sunai">@sunai</a></td>
@@ -282,6 +391,14 @@
   <td>新手村</td>
 </tr>
 <tr>
+  <td><a href="https://busy.org/@thedreamsun66">@thedreamsun66</a></td>
+  <td>小刘</td>
+</tr>
+<tr>
+  <td><a href="https://busy.org/@tiffany4ever">@tiffany4ever</a></td>
+  <td>ITC9 / 师太</td>
+</tr>
+<tr>
   <td><a href="https://busy.org/@tumutanzi">@tumutanzi</a></td>
   <td>坛爷</td>
 </tr>
@@ -291,11 +408,23 @@
 </tr>
 <tr>
   <td><a href="https://busy.org/@tydebbie">@tydebbie</a></td>
-  <td>小迪</td>
+  <td>小迪 / Debbie / 小娣</td>
+</tr>
+<tr>
+  <td><a href="https://busy.org/@valleybkk">@valleybkk</a></td>
+  <td>腿 / Ham</td>
+</tr>
+<tr>
+  <td><a href="https://busy.org/@wanggang">@wanggang</a></td>
+  <td>钢哥 / 钢天使</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@weisheng167388">@weisheng167388</a></td>
-  <td>金老师</td>
+  <td>金老师 / 金兽</td>
+</tr>
+<tr>
+  <td><a href="https://busy.org/@weitz">@weitz</a></td>
+  <td>大柱</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@wilhb81">@wilhb81</a></td>
@@ -314,8 +443,16 @@
   <td>老王</td>
 </tr>
 <tr>
+  <td><a href="https://busy.org/@wuer">@wuer</a></td>
+  <td>吾儿</td>
+</tr>
+<tr>
   <td><a href="https://busy.org/@xiaoguai">@xiaoguai</a></td>
   <td>小乖</td>
+</tr>
+<tr>
+  <td><a href="https://busy.org/@xiaoliu">@xiaoliu</a></td>
+  <td>六子</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@xiaoshancun">@xiaoshancun</a></td>
@@ -327,7 +464,7 @@
 </tr>
 <tr>
   <td><a href="https://busy.org/@xiaoyuanwmm">@xiaoyuanwmm</a></td>
-  <td>村长夫人</td>
+  <td>村长夫人 / 村凤</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@yanhan">@yanhan</a></td>
@@ -348,6 +485,10 @@
 <tr>
   <td><a href="https://busy.org/@zerofive">@zerofive</a></td>
   <td>欧爷</td>
+</tr>
+<tr>
+  <td><a href="https://busy.org/@zilin">@zilin</a></td>
+  <td>蔚阿姨</td>
 </tr>
 <tr>
   <td><a href="https://busy.org/@zy-sb">@zy-sb</a></td>
