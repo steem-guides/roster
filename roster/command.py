@@ -29,6 +29,5 @@ def generate(ctx, account="teamcn-shop", tag=None, days=None, debug=False, produ
     incremental = settings.get_env_var("INCREMENTAL") or False
 
     crawler = RosterCrawler(account=account, tag=tag, days=days, incremental=incremental)
-    count = crawler.crawl()
-    return count
-
+    crawler.crawl()
+    return crawler.build()

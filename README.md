@@ -19,6 +19,7 @@ We collect the (name, nickname) pair from the posts in the community.
 
 The current data sources includes below ones:
 1. @teamcn-shop 's daily reports: https://steemit.com/@teamcn-shop
+1. @teamcn-shop 's comments on users' posts
 
 
 
