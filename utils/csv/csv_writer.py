@@ -6,7 +6,7 @@ def find_common_keys(data):
     common_keys = set()
     for item in data:
         common_keys |= set(item.keys())
-    return list(common_keys)
+    return sorted(list(common_keys))
 
 def write_json_array_to_csv(data, filename, append=False):
     if not append:
