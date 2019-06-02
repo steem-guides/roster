@@ -2,6 +2,7 @@
 
 import os
 import re
+import pandas as pd
 
 from steem.collector import get_comments
 from steem.comment import SteemComment
@@ -15,11 +16,13 @@ from utils.csv.csv_writer import write_json_array_to_csv
 TEAMCN_SHOP_POST_NAME_NICKNAME_PATTERN = r"\|(\@[A-Za-z0-9._-]+) ([^|]+)\|"
 TEAMCN_SHOP_COMMENT_NAME_NICKNAME_PATTERN = r"^你好鸭，([^!]+)!"
 
-
 SOURCES = """
 1. @teamcn-shop 新手村小卖部日报: https://steemit.com/@teamcn-shop
 1. @teamcn-shop 新手村小卖部 送外卖给客户时的留言。例如 [这条留言](https://busy.org/@julian2013/p109-6kbf9ubevi#@teamcn-shop/annepink-re-julian2013-p109-6kbf9ubevi-20190602t133509529z)
 """
+
+SAVED_ROSTER_DATA = "https://raw.githubusercontent.com/steem-guides/roster/gh-pages/roster.csv"
+NICKNAME_DELIMITER = " / "
 
 
 class RosterCrawler(SteemReader):
@@ -31,7 +34,9 @@ class RosterCrawler(SteemReader):
         self.public_folder = "public"
         self.incremental = incremental
         if self.incremental:
+            logger.info("launch: incremental mode")
             self.days = 1.5
+            self.fetch_history()
 
     def get_name(self):
         name = "roster"
@@ -114,7 +119,7 @@ class RosterCrawler(SteemReader):
 
     def transform(self):
         if len(self._roster_dict) > 0:
-            self.roster = [{"account": k, "nickname": " / ".join(v)} for (k, v) in sorted(self._roster_dict.items())]
+            self.roster = [{"account": k, "nickname": NICKNAME_DELIMITER.join(v)} for (k, v) in sorted(self._roster_dict.items())]
 
     def save(self):
         count = len(self.roster)
@@ -123,8 +128,15 @@ class RosterCrawler(SteemReader):
             write_json_array_to_csv(self.roster, filename)
             logger.info("Crawled {} names to add into roster {}".format(count, filename))
 
-    def prefetch(self):
-        pass
+    def fetch_history(self):
+        try:
+            df = pd.read_csv(SAVED_ROSTER_DATA)
+            self.roster = df.to_dict('records')
+            for item in self.roster:
+                self._roster_dict[item['account']] = item['nickname'].split(NICKNAME_DELIMITER)
+            logger.info("Roster history has been fetched from the server. {} users are found.".format(len(self.roster)))
+        except:
+            logger.info("Failed to fetch roster history from server")
 
     def _sources(self):
         return SOURCES

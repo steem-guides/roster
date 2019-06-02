@@ -25,7 +25,7 @@ class LoggerControl:
         return self._log
 
 
-logger_ctl = LoggerControl("blog")
+logger_ctl = LoggerControl("roster")
 logger_ctl.set_level(logging.WARNING)
 logger = logger_ctl.get_logger()
 
