@@ -3,6 +3,7 @@
 import os
 import re
 
+from steem.comment import SteemComment
 from steem.collector import get_posts, get_comments
 from utils.logging.logger import logger
 
@@ -12,6 +13,8 @@ TEAMCN_SHOP_ACCOUNT = "teamcn-shop"
 TEAMCN_SHOP_POST_NAME_NICKNAME_PATTERN = r"\|(\@[A-Za-z0-9._-]+) ([^|]+)\|"
 TEAMCN_SHOP_COMMENT_NAME_NICKNAME_PATTERN = r"^你好鸭，([^!]+)!"
 
+TEAMCN_CEREMONY_POST = "https://steemit.com/@team-cn/egxwc0ewsi"
+TEAMCN_CEREMONY_NAME_NICKNAME_PATTERN = r"\n(\@[A-Za-z0-9._-]+)\s+(\S+)"
 
 
 class Crawler:
@@ -81,6 +84,26 @@ class TeamCnShopComments(Crawler):
                 account = "@" + parent_account
                 self._update(account, nickname)
 
+class TeamCnCeremony(Crawler):
+
+    def __init__(self, roster_dict):
+        Crawler.__init__(self, roster_dict)
+        logger.info("Crawling roster from teamcn ceremony posts...")
+
+    def crawl(self):
+        post = SteemComment(url=TEAMCN_CEREMONY_POST).get_comment()
+        return [post]
+
+    def parse(self, post):
+        name_list_section = post.body.split("新手村村民名单")[-1]
+        res = re.findall(TEAMCN_CEREMONY_NAME_NICKNAME_PATTERN, name_list_section)
+        if res:
+            for r in res:
+                account = r[0]
+                nicknames = r[1]
+                for nickname in nicknames.split("/"):
+                    if nickname != "TBD":
+                        self._update(account, nickname)
 
 
 

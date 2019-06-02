@@ -9,7 +9,7 @@ from steem.comment import SteemComment
 from steem.settings import settings, STEEM_HOST
 from data.reader import SteemReader
 from roster.message import build_message, build_table
-from roster.crawlers import TeamCnShopDaily, TeamCnShopComments
+from roster.crawlers import TeamCnShopDaily, TeamCnShopComments, TeamCnCeremony
 from utils.logging.logger import logger
 from utils.csv.csv_writer import write_json_array_to_csv
 
@@ -17,6 +17,7 @@ from utils.csv.csv_writer import write_json_array_to_csv
 SOURCES = """
 1. @teamcn-shop 新手村小卖部日报: https://steemit.com/@teamcn-shop
 1. @teamcn-shop 新手村小卖部 送外卖给客户时的留言。例如 [这条留言](https://busy.org/@julian2013/p109-6kbf9ubevi#@teamcn-shop/annepink-re-julian2013-p109-6kbf9ubevi-20190602t133509529z)
+1. @teamcn 毕业典礼的学生名单，例如[第七届新手村毕业典礼](https://steemit.com/@team-cn/egxwc0ewsi/)
 """
 
 SAVED_ROSTER_DATA = "https://raw.githubusercontent.com/steem-guides/roster/gh-pages/roster.csv"
@@ -58,6 +59,7 @@ class RosterBuilder(SteemReader):
     def crawl(self):
         self._roster_dict = TeamCnShopDaily(roster_dict=self._roster_dict, days=self.days).run()
         self._roster_dict = TeamCnShopComments(roster_dict=self._roster_dict, days=self.days).run()
+        self._roster_dict = TeamCnCeremony(roster_dict=self._roster_dict).run()
 
     def build(self):
         self.transform()
@@ -112,5 +114,5 @@ class RosterBuilder(SteemReader):
             content = self._content()
             with open(filename, "w", encoding="utf-8") as f:
                 f.write(content)
-            logger.info("Publish {} names into the page {}".format(count, filename))
+            logger.info("Published {} names into the page {}".format(count, filename))
 
