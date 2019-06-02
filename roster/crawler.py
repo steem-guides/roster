@@ -18,6 +18,7 @@ TEAMCN_SHOP_COMMENT_NAME_NICKNAME_PATTERN = r"^你好鸭，([^!]+)!"
 
 SOURCES = """
 1. @teamcn-shop 新手村小卖部日报: https://steemit.com/@teamcn-shop
+1. @teamcn-shop 新手村小卖部 送外卖给客户时的留言。例如 [这条留言](https://busy.org/@julian2013/p109-6kbf9ubevi#@teamcn-shop/annepink-re-julian2013-p109-6kbf9ubevi-20190602t133509529z)
 """
 
 
