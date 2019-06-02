@@ -5,7 +5,7 @@ from invoke import task
 
 from utils.logging.logger import logger
 from steem.settings import settings
-from roster.crawler import RosterCrawler
+from roster.builder import RosterBuilder
 
 
 @task(help={
@@ -28,6 +28,6 @@ def generate(ctx, account="teamcn-shop", tag=None, days=None, debug=False, produ
     days = days or settings.get_env_var("DURATION")
     incremental = settings.get_env_var("INCREMENTAL") or False
 
-    crawler = RosterCrawler(account=account, tag=tag, days=days, incremental=incremental)
+    crawler = RosterBuilder(account=account, tag=tag, days=days, incremental=incremental)
     crawler.crawl()
     return crawler.build()
