@@ -105,6 +105,3 @@ class TeamCnCeremony(Crawler):
                     if nickname != "TBD":
                         self._update(account, nickname)
 
-
-
-

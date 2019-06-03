@@ -55,13 +55,24 @@ FOOTERS = {}
 MESSAGES["roster"] = """
 本页面为 **Steem 花名册**，由 [@steem-guides](https://busy.org/@steem-guides) 创建。
 
-其目的在于帮助社区成员（尤其是新人），更方便地记忆他人的别名。
-
-页面根据 Steem 社区中的文章描述和对话自动生成。目前生成花名册参考的主要数据源有：
-{sources}
+花名册的目的在于帮助社区成员（尤其是新人），更好地记忆社区里朋友们的别名。
 
 - - -
 
-现在已知的花名册的名单如下：
+现在已知的花名册的名单如下，包含 **{count}** 名社区成员：
 {table}
+
+- - -
+
+要了解他们的故事和过往，建议阅读：
+
+- [《Steem指北》](https://steem-guides.github.io/steemh/fl.html)
+- [新手村访谈](https://steemblog.github.io/@team-cn/tags/cn-interview/)
+
+
+本名册根据 Steem 社区中的文章和对话自动生成。目前参考的数据源包括：
+{sources}
+
+如有任何建议，欢迎联系：[@steem-guides](https://busy.org/@steem-guides) 或 [@robertyan](https://busy.org/@robertyan)
+
 """

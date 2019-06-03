@@ -17,7 +17,7 @@ from utils.csv.csv_writer import write_json_array_to_csv
 SOURCES = """
 1. @teamcn-shop 新手村小卖部日报: https://steemit.com/@teamcn-shop
 1. @teamcn-shop 新手村小卖部 送外卖给客户时的留言。例如 [这条留言](https://busy.org/@julian2013/p109-6kbf9ubevi#@teamcn-shop/annepink-re-julian2013-p109-6kbf9ubevi-20190602t133509529z)
-1. @teamcn 毕业典礼的学生名单，例如[第七届新手村毕业典礼](https://steemit.com/@team-cn/egxwc0ewsi/)
+1. @teamcn 毕业典礼的学生名单，例如 [第七届新手村毕业典礼](https://steemit.com/@team-cn/egxwc0ewsi/)
 """
 
 SAVED_ROSTER_DATA = "https://raw.githubusercontent.com/steem-guides/roster/gh-pages/roster.csv"
@@ -97,13 +97,19 @@ class RosterBuilder(SteemReader):
         return "https://busy.org/{}".format(name)
 
     def _content(self):
-        if len(self.roster) > 0:
-            names = [("<a href=\"{}\">{}</a>".format(self._get_account_link(user['account']), user['account']),
-                      user['nickname']
-                      ) for user in self.roster]
-            table = build_table(("用户", "别名"), names)
+        count = len(self.roster)
+        if count > 0:
+            index = 0
+            names = []
+            for user in self.roster:
+                index += 1
+                names.append((index,
+                              "<a href=\"{}\">{}</a>".format(self._get_account_link(user['account']), user['account']),
+                                user['nickname']
+                              ))
+            table = build_table(("序号", "用户", "别名"), names)
             template = build_message("roster")
-            return template.format(sources=self._sources(), table=table)
+            return template.format(count=count, sources=self._sources(), table=table)
         else:
             return None
 
