@@ -23,6 +23,10 @@ class Crawler:
         self._roster_dict = roster_dict or {}
 
     def _update(self, account, name):
+        # the nickname should not be equal to account
+        if account == name:
+            return False
+
         if not account in self._roster_dict:
             self._roster_dict[account] = [name]
             return True
