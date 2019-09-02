@@ -13,6 +13,7 @@ pandas = "*"
 bs4 = "*"
 markdown = "*"
 zmail = "*"
+scrypt = "*"
 
 [requires]
 python_version = "3.7"
