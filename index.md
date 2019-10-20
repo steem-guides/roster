@@ -19,7 +19,7 @@
 <tr>
   <td>1</td>
   <td><a href="https://busy.org/@aaronli">@aaronli</a></td>
-  <td>阿柔 ~~我叫伦舞~~ / 阿柔</td>
+  <td>阿柔 ~~我叫伦舞~~ / 阿柔 / 金鱼佬</td>
 </tr>
 <tr>
   <td>2</td>
